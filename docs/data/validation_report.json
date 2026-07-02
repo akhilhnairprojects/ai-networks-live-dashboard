@@ -1,9 +1,88 @@
 {
-  "run_at": "2026-07-02T06:35:11.814676+00:00",
-  "mode": "seed",
-  "threshold": null,
-  "per_topic": {},
+  "run_at": "2026-07-02T16:51:28.088068+00:00",
+  "month": "2026-07",
+  "mode": "first_refresh",
+  "threshold": 15,
+  "per_topic": {
+    "Market Sizing & Spend": {
+      "sources": 259,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "AIOps / Autonomous Networks": {
+      "sources": 151,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "AI Back-End / GPU Fabric": {
+      "sources": 129,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Adoption Barriers & Skills": {
+      "sources": 165,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Private / Sovereign AI": {
+      "sources": 191,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Power & Sustainability": {
+      "sources": 276,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "High-Speed Optics": {
+      "sources": 114,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Ethernet vs NVLink (Scale-up)": {
+      "sources": 36,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Vendor Product Launch": {
+      "sources": 191,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Network Security (Zero-Trust)": {
+      "sources": 210,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Network Observability": {
+      "sources": 104,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "NaaS / Cloud Connectivity": {
+      "sources": 120,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    },
+    "Competitive / M&A": {
+      "sources": 106,
+      "threshold": 15,
+      "window_days": 35,
+      "pass": true
+    }
+  },
   "schema_problems": [],
-  "overall_pass": null,
-  "note": "No live refresh has run yet. Trigger 'monthly-data-refresh'."
+  "overall_pass": true
 }
