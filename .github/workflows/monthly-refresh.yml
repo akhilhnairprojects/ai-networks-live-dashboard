@@ -1,8 +1,3 @@
-# monthly-data-refresh
-# Runs automatically at 06:17 UTC on the 1st of every month, and can be
-# started by hand from the Actions tab ("Run workflow"). If validation
-# fails, the run stops before the commit step and last month's data
-# stays live on the site.
 name: monthly-data-refresh
 
 on:
