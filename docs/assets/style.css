@@ -1,0 +1,219 @@
+/* ==========================================================================
+   AI-Ready Networks — Live Intelligence Console
+   Design system: an instrument panel, not a brochure.
+   Palette   console ink #101B24 · panel paper #F5F7F8 · signal teal #0E7C7B
+             route blue #1D4E89 · carrier green #2F9E62 · amber #DB9A2E
+             fault red #B3472F
+   Type      Archivo (display) · IBM Plex Sans (body) · IBM Plex Mono (data)
+   ========================================================================== */
+
+:root {
+  --ink: #101B24;
+  --ink-soft: #3D4B57;
+  --paper: #F5F7F8;
+  --panel: #FFFFFF;
+  --line: #D8E0E4;
+  --teal: #0E7C7B;
+  --teal-dim: #E4EFEF;
+  --blue: #1D4E89;
+  --green: #2F9E62;
+  --amber: #DB9A2E;
+  --red: #B3472F;
+  --radius: 6px;
+  --shadow: 0 1px 2px rgba(16, 27, 36, .06), 0 4px 14px rgba(16, 27, 36, .05);
+  --font-display: "Archivo", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 72px; }
+
+/* ---------------------------------------------------------- header ----- */
+header.site {
+  border-bottom: 3px solid var(--ink);
+  padding: 26px 0 18px;
+  display: flex; flex-wrap: wrap; gap: 16px;
+  align-items: flex-end; justify-content: space-between;
+}
+.brand .eyebrow {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--teal);
+}
+.brand h1 {
+  font-family: var(--font-display); font-weight: 800;
+  font-size: clamp(24px, 3.4vw, 34px); letter-spacing: -.015em;
+  line-height: 1.1;
+}
+nav.pages { display: flex; gap: 8px; }
+nav.pages a {
+  font-family: var(--font-mono); font-size: 12px; text-decoration: none;
+  color: var(--ink-soft); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 7px 14px; background: var(--panel);
+}
+nav.pages a.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+nav.pages a:hover:not(.active) { border-color: var(--teal); color: var(--teal); }
+
+/* ------------------------------------------- telemetry status strip ---- */
+/* The signature element: a live readout of pipeline state.               */
+.telemetry {
+  margin-top: 18px;
+  background: var(--ink); color: #C9D6DE;
+  border-radius: var(--radius);
+  font-family: var(--font-mono); font-size: 12px;
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: 4px 26px; padding: 12px 18px;
+}
+.telemetry .cell b { color: #fff; font-weight: 600; }
+.telemetry .label { color: #7E93A1; margin-right: 6px; }
+.led {
+  display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+  margin-right: 8px; vertical-align: -1px; background: var(--green);
+  animation: pulse 2.2s ease-in-out infinite;
+}
+.led.seed { background: var(--amber); }
+.led.fail { background: var(--red); }
+@keyframes pulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .led { animation: none; } }
+
+/* ---------------------------------------------------------- panels ----- */
+main { margin-top: 28px; }
+.grid { display: grid; gap: 20px; grid-template-columns: repeat(12, 1fr); }
+.panel {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 22px;
+}
+.span-12 { grid-column: span 12; }
+.span-7  { grid-column: span 7; }
+.span-6  { grid-column: span 6; }
+.span-5  { grid-column: span 5; }
+@media (max-width: 900px) {
+  .span-7, .span-6, .span-5 { grid-column: span 12; }
+}
+.panel h2 {
+  font-family: var(--font-display); font-weight: 700; font-size: 17px;
+  letter-spacing: -.01em; margin-bottom: 2px;
+}
+.panel .sub { font-size: 12.5px; color: var(--ink-soft); margin-bottom: 16px; }
+.hint {
+  font-family: var(--font-mono); font-size: 10.5px; color: var(--teal);
+  letter-spacing: .06em; text-transform: uppercase;
+}
+
+/* --------------------------------------------------------- heatmap ----- */
+.heatmap { display: grid; gap: 3px; font-size: 12.5px;
+  grid-template-columns: minmax(150px, 1.6fr) repeat(5, minmax(52px, 1fr)); }
+.heatmap .h {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--ink-soft);
+  padding: 6px 4px; align-self: end; text-align: center;
+}
+.heatmap .h.topic-h { text-align: left; }
+.heatmap .topic-label {
+  padding: 8px 8px 8px 0; font-weight: 500; border-radius: 3px;
+  cursor: default;
+}
+.heatmap .cell {
+  border-radius: 3px; text-align: center; padding: 8px 4px;
+  font-family: var(--font-mono); font-weight: 500; cursor: default;
+  outline-offset: 1px;
+}
+.heatmap .cell.total { border: 1px solid var(--line); background: var(--panel); }
+.heatmap .cell:focus-visible, .heatmap .topic-label:focus-visible,
+.bar-row:focus-visible, tr[tabindex]:focus-visible {
+  outline: 2px solid var(--blue);
+}
+
+/* ------------------------------------------------------------ bars ----- */
+.bar-row { display: grid; grid-template-columns: 150px 1fr 44px;
+  align-items: center; gap: 10px; padding: 5px 0; cursor: default; }
+.bar-row .name { font-size: 13px; overflow: hidden; white-space: nowrap;
+  text-overflow: ellipsis; }
+.bar-track { background: var(--teal-dim); border-radius: 3px; height: 16px; }
+.bar-fill { height: 100%; border-radius: 3px; background: var(--teal);
+  min-width: 2px; }
+.bar-fill.alt { background: var(--blue); }
+.bar-row .val { font-family: var(--font-mono); font-size: 12.5px;
+  text-align: right; }
+.bar-row .cat, td .cat { font-family: var(--font-mono); font-size: 10px;
+  color: var(--ink-soft); display: block; }
+
+/* ---------------------------------------------------------- tables ----- */
+table.data { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.data th {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ink-soft); text-align: left;
+  border-bottom: 2px solid var(--ink); padding: 8px 10px 6px;
+}
+table.data td { border-bottom: 1px solid var(--line); padding: 9px 10px;
+  vertical-align: top; }
+table.data tr[tabindex] { cursor: default; }
+table.data tr:hover td { background: #FAFCFC; }
+td.num, th.num { font-family: var(--font-mono); text-align: right; }
+.rank-chip {
+  font-family: var(--font-mono); font-size: 11px; background: var(--ink);
+  color: #fff; border-radius: 3px; padding: 1px 7px; display: inline-block;
+}
+.delta-up { color: var(--green); } .delta-down { color: var(--red); }
+.delta-flat { color: var(--ink-soft); }
+.tier-1 { color: var(--blue); font-weight: 600; }
+.badge {
+  font-family: var(--font-mono); font-size: 10.5px; border-radius: 3px;
+  padding: 2px 8px; display: inline-block;
+}
+.badge.pass { background: #E7F4EC; color: var(--green); }
+.badge.fail { background: #F7E9E5; color: var(--red); }
+.badge.seed { background: #F9F1E1; color: var(--amber); }
+
+/* ------------------------------------------------------------ KPIs ----- */
+.kpis { display: grid; gap: 20px; grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 900px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+.kpi { background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 18px;
+  cursor: default; }
+.kpi .k-label { font-family: var(--font-mono); font-size: 10.5px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.kpi .k-value { font-family: var(--font-mono); font-size: 30px;
+  font-weight: 600; line-height: 1.2; margin-top: 4px; }
+.kpi .k-note { font-size: 12px; color: var(--ink-soft); }
+
+/* --------------------------------------------------------- tooltip ----- */
+/* The inspection card requested in the feedback: 2 bullets + reasoning.  */
+#tooltip {
+  position: fixed; z-index: 50; max-width: 380px; pointer-events: none;
+  background: var(--ink); color: #E7EDF1; border-left: 3px solid var(--teal);
+  border-radius: var(--radius); box-shadow: 0 10px 30px rgba(16,27,36,.35);
+  padding: 13px 15px; font-size: 12.5px; line-height: 1.45;
+  opacity: 0; transition: opacity .12s ease;
+}
+#tooltip.show { opacity: 1; }
+#tooltip .t-head { font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: .05em; text-transform: uppercase; color: #9FB4C0;
+  display: flex; justify-content: space-between; gap: 14px;
+  margin-bottom: 7px; }
+#tooltip .t-head b { color: #fff; }
+#tooltip ul { list-style: none; margin: 0 0 8px; }
+#tooltip ul li { padding-left: 14px; position: relative; margin-bottom: 6px; }
+#tooltip ul li::before { content: "▸"; position: absolute; left: 0;
+  color: var(--teal); }
+#tooltip .t-why { font-size: 11.5px; color: #9FB4C0;
+  border-top: 1px solid #2A3843; padding-top: 7px; }
+
+/* ------------------------------------------------------------ misc ----- */
+.takeaways li { margin: 0 0 10px 18px; }
+.chart-box { position: relative; height: 300px; }
+.note { font-size: 12.5px; color: var(--ink-soft); }
+footer.site { margin-top: 44px; border-top: 1px solid var(--line);
+  padding-top: 14px; font-family: var(--font-mono); font-size: 11px;
+  color: var(--ink-soft); display: flex; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px; }
+footer.site a { color: var(--teal); }

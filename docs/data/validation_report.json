@@ -1,0 +1,9 @@
+{
+  "run_at": "2026-07-02T06:35:11.814676+00:00",
+  "mode": "seed",
+  "threshold": null,
+  "per_topic": {},
+  "schema_problems": [],
+  "overall_pass": null,
+  "note": "No live refresh has run yet. Trigger 'monthly-data-refresh'."
+}

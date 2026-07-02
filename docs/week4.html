@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 4 Summary · AI-Ready Networks Intelligence</title>
+  <meta name="description"
+        content="Week 4 summary: live market signal measured against the
+                 Week 1 research baseline and the Week 3 account model.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <div class="brand">
+      <div class="eyebrow">AI-READY NETWORKS · MARKET INTELLIGENCE</div>
+      <h1>Week 4 — Summary Board</h1>
+    </div>
+    <nav class="pages">
+      <a href="index.html">Week 1 · Live</a>
+      <a href="week4.html" class="active">Week 4 · Summary</a>
+    </nav>
+  </header>
+
+  <div class="telemetry" id="telemetry">
+    <span class="cell"><span class="led seed"></span><b>loading…</b></span>
+  </div>
+
+  <p class="hint">Every card, bar and row explains itself on hover: two source
+     bullets plus the computation behind the number. Baselines are frozen from
+     the Week 1 and Week 3 workbooks; the live side moves monthly.</p>
+
+  <main class="grid">
+
+    <section class="span-12">
+      <div class="kpis" id="kpis"></div>
+    </section>
+
+    <section class="panel span-12">
+      <h2>Topic Momentum</h2>
+      <p class="sub">Article volume per refresh for the five heaviest topics —
+         one point per monthly cycle, straight from <code>history.json</code>.</p>
+      <div class="chart-box"><canvas id="momentum-chart"></canvas></div>
+      <p class="note" id="chart-note"></p>
+    </section>
+
+    <section class="panel span-6">
+      <h2>Movers vs Week 1 Baseline</h2>
+      <p class="sub">Live topic totals against the frozen Week 1 workbook.</p>
+      <table class="data" id="movers">
+        <thead>
+          <tr><th>Topic</th><th class="num">Week 1</th>
+              <th class="num">Live</th><th class="num">Δ</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="panel span-6">
+      <h2>Industry Momentum</h2>
+      <p class="sub">Live article tagging by buyer industry. The top two drive
+         the Account Spotlight.</p>
+      <div id="industries"></div>
+    </section>
+
+    <section class="panel span-6">
+      <h2>Account Spotlight</h2>
+      <p class="sub" id="accounts-note">—</p>
+      <table class="data" id="accounts">
+        <thead>
+          <tr><th>Account</th><th>Industry</th>
+              <th>Sub-industry</th><th class="num">Score</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="panel span-6">
+      <h2>Data-Quality Gate</h2>
+      <p class="sub" id="quality-note">—</p>
+      <table class="data" id="quality">
+        <thead>
+          <tr><th>Topic</th><th class="num">Sources</th>
+              <th class="num">Window</th><th>Status</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="panel span-12">
+      <h2>Executive Takeaways</h2>
+      <p class="sub">Written by the page itself from the numbers above —
+         regenerated on every refresh.</p>
+      <ul class="takeaways" id="takeaways"></ul>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    <span id="stamp">—</span>
+    <span>Baselines frozen · live side refreshes on the 1st, 06:17 UTC</span>
+  </footer>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4" defer></script>
+<script src="assets/common.js"></script>
+<script src="assets/week4.js" defer></script>
+</body>
+</html>

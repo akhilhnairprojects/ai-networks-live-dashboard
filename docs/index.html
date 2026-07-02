@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Ready Networks · Live Market Intelligence</title>
+  <meta name="description"
+        content="Self-refreshing market-intelligence dashboard for AI-ready
+                 networking. Rebuilds itself from live sources on the 1st of
+                 every month.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <div class="brand">
+      <div class="eyebrow">AI-READY NETWORKS · MARKET INTELLIGENCE</div>
+      <h1>Week 1 — Live Signal Board</h1>
+    </div>
+    <nav class="pages">
+      <a href="index.html" class="active">Week 1 · Live</a>
+      <a href="week4.html">Week 4 · Summary</a>
+    </nav>
+  </header>
+
+  <div class="telemetry" id="telemetry">
+    <span class="cell"><span class="led seed"></span><b>loading…</b></span>
+  </div>
+
+  <p class="hint">Hover (or Tab to) any cell, bar or table row for a two-bullet
+     source digest plus the reasoning behind that exact value.</p>
+
+  <main class="grid">
+
+    <section class="panel span-7">
+      <h2>Trend Heatmap</h2>
+      <p class="sub">Article count per topic × source type, current cycle.
+         Rows sorted by total coverage.</p>
+      <div class="heatmap" id="heatmap"><p class="note">loading…</p></div>
+    </section>
+
+    <section class="panel span-5">
+      <h2>Top Keywords</h2>
+      <p class="sub">Mention count (live) across the de-duplicated article pool.</p>
+      <div id="keywords"></div>
+    </section>
+
+    <section class="panel span-6">
+      <h2>Competitor Mentions</h2>
+      <p class="sub">Vendor name-checks in headlines and snippets this cycle.</p>
+      <div id="vendors"></div>
+    </section>
+
+    <section class="panel span-6">
+      <h2>Top 10 Trends</h2>
+      <p class="sub">Ranked market narratives. Hover a row for the evidence line.</p>
+      <table class="data" id="trends">
+        <thead>
+          <tr><th>Rank</th><th>Market Trend</th><th>Why it matters</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    <span id="stamp">—</span>
+    <span>Auto-refresh: 1st of every month · rule ≥15 sources first run, ≥12 after</span>
+  </footer>
+
+</div>
+<script src="assets/common.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
