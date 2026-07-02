@@ -25,19 +25,3 @@ docs/data/           latest.json · history.json · validation_report.json
                      latest_data.xlsx · archive/ · baselines/
 ```
 
-## First run (all in the browser)
-
-1. Upload this folder's contents to a new public repo.
-2. Settings → Actions → General → Workflow permissions → **Read and write**.
-3. Actions → **build-baselines** → Run workflow (once).
-4. Actions → **monthly-data-refresh** → Run workflow (first live pull).
-5. Settings → Pages → Deploy from branch → `main` / `docs`.
-
-Full beginner walkthrough: see the project playbook.
-
-## Guarantees
-
-- A failed validation run exits **before** committing — the site keeps
-  serving the last good dataset.
-- Baseline JSONs are write-once; live files never overwrite them.
-- All article text is HTML-escaped before rendering.
