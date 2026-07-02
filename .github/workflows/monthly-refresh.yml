@@ -1,0 +1,49 @@
+# monthly-data-refresh
+# Runs automatically at 06:17 UTC on the 1st of every month, and can be
+# started by hand from the Actions tab ("Run workflow"). If validation
+# fails, the run stops before the commit step and last month's data
+# stays live on the site.
+name: monthly-data-refresh
+
+on:
+  schedule:
+    - cron: "17 6 1 * *"     # minute 17 avoids GitHub's congested :00 slot
+  workflow_dispatch: {}       # adds the manual "Run workflow" button
+
+permissions:
+  contents: write             # the job commits refreshed data back to main
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Install Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Fetch, validate, and build the monthly dataset
+        run: python pipeline/refresh.py
+
+      - name: Commit the refreshed data to the repository
+        run: |
+          git config user.name  "data-refresh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Monthly data refresh: $(date -u +%Y-%m)"
+            git push
+          fi
