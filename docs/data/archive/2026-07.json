@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T16:51:28.088068+00:00",
+  "generated_at": "2026-07-02T17:12:55.204840+00:00",
   "month": "2026-07",
-  "refresh_number": 1,
+  "refresh_number": 2,
   "data_status": "live",
   "heatmap": [
     {
@@ -12,7 +12,7 @@
     {
       "topic": "Market Sizing & Spend",
       "source_type": "Industry News",
-      "count": 252
+      "count": 262
     },
     {
       "topic": "Market Sizing & Spend",
@@ -32,7 +32,7 @@
     {
       "topic": "AIOps / Autonomous Networks",
       "source_type": "Industry News",
-      "count": 135
+      "count": 130
     },
     {
       "topic": "AIOps / Autonomous Networks",
@@ -57,12 +57,12 @@
     {
       "topic": "AI Back-End / GPU Fabric",
       "source_type": "Market Research",
-      "count": 0
+      "count": 1
     },
     {
       "topic": "AI Back-End / GPU Fabric",
       "source_type": "Vendor (Primary)",
-      "count": 4
+      "count": 5
     },
     {
       "topic": "Adoption Barriers & Skills",
@@ -72,7 +72,7 @@
     {
       "topic": "Adoption Barriers & Skills",
       "source_type": "Industry News",
-      "count": 158
+      "count": 186
     },
     {
       "topic": "Adoption Barriers & Skills",
@@ -82,7 +82,7 @@
     {
       "topic": "Adoption Barriers & Skills",
       "source_type": "Vendor (Primary)",
-      "count": 4
+      "count": 5
     },
     {
       "topic": "Private / Sovereign AI",
@@ -92,17 +92,17 @@
     {
       "topic": "Private / Sovereign AI",
       "source_type": "Industry News",
-      "count": 182
+      "count": 184
     },
     {
       "topic": "Private / Sovereign AI",
       "source_type": "Market Research",
-      "count": 2
+      "count": 3
     },
     {
       "topic": "Private / Sovereign AI",
       "source_type": "Vendor (Primary)",
-      "count": 7
+      "count": 10
     },
     {
       "topic": "Power & Sustainability",
@@ -112,12 +112,12 @@
     {
       "topic": "Power & Sustainability",
       "source_type": "Industry News",
-      "count": 264
+      "count": 265
     },
     {
       "topic": "Power & Sustainability",
       "source_type": "Market Research",
-      "count": 5
+      "count": 3
     },
     {
       "topic": "Power & Sustainability",
@@ -132,7 +132,7 @@
     {
       "topic": "High-Speed Optics",
       "source_type": "Industry News",
-      "count": 113
+      "count": 114
     },
     {
       "topic": "High-Speed Optics",
@@ -152,7 +152,7 @@
     {
       "topic": "Ethernet vs NVLink (Scale-up)",
       "source_type": "Industry News",
-      "count": 34
+      "count": 35
     },
     {
       "topic": "Ethernet vs NVLink (Scale-up)",
@@ -172,7 +172,7 @@
     {
       "topic": "Vendor Product Launch",
       "source_type": "Industry News",
-      "count": 177
+      "count": 169
     },
     {
       "topic": "Vendor Product Launch",
@@ -192,7 +192,7 @@
     {
       "topic": "Network Security (Zero-Trust)",
       "source_type": "Industry News",
-      "count": 190
+      "count": 184
     },
     {
       "topic": "Network Security (Zero-Trust)",
@@ -202,7 +202,7 @@
     {
       "topic": "Network Security (Zero-Trust)",
       "source_type": "Vendor (Primary)",
-      "count": 19
+      "count": 22
     },
     {
       "topic": "Network Observability",
@@ -212,7 +212,7 @@
     {
       "topic": "Network Observability",
       "source_type": "Industry News",
-      "count": 97
+      "count": 99
     },
     {
       "topic": "Network Observability",
@@ -222,7 +222,7 @@
     {
       "topic": "Network Observability",
       "source_type": "Vendor (Primary)",
-      "count": 7
+      "count": 6
     },
     {
       "topic": "NaaS / Cloud Connectivity",
@@ -232,7 +232,7 @@
     {
       "topic": "NaaS / Cloud Connectivity",
       "source_type": "Industry News",
-      "count": 111
+      "count": 106
     },
     {
       "topic": "NaaS / Cloud Connectivity",
@@ -242,7 +242,7 @@
     {
       "topic": "NaaS / Cloud Connectivity",
       "source_type": "Vendor (Primary)",
-      "count": 8
+      "count": 12
     },
     {
       "topic": "Competitive / M&A",
@@ -252,12 +252,12 @@
     {
       "topic": "Competitive / M&A",
       "source_type": "Industry News",
-      "count": 102
+      "count": 108
     },
     {
       "topic": "Competitive / M&A",
       "source_type": "Market Research",
-      "count": 3
+      "count": 2
     },
     {
       "topic": "Competitive / M&A",
@@ -268,184 +268,184 @@
   "topics": [
     {
       "topic": "Market Sizing & Spend",
-      "total": 259,
-      "unique_outlets": 124,
+      "total": 269,
+      "unique_outlets": 130,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 10,
       "bullets": [
         "McKinsey & Company — Colocation data centers: The infrastructure race behind AI - McKinsey & Company (Jun 30)",
         "MarketsandMarkets — Data Center Solutions Market worth $1,336.55 billion by 2031 - MarketsandMarkets (Jul 02)"
       ],
-      "reasoning": "Value = 259 unique articles from 124 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Fortune Business Insights, TradingView, Crypto Briefing.",
+      "reasoning": "Value = 269 unique articles from 130 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +10. Leading outlets: Fortune Business Insights, TradingView, Crypto Briefing.",
       "top_keyword": "data center"
     },
     {
       "topic": "AIOps / Autonomous Networks",
-      "total": 151,
-      "unique_outlets": 97,
+      "total": 146,
+      "unique_outlets": 96,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": -5,
       "bullets": [
         "finance.biggo.com — Nokia Declares Base Stations Will Become AI Supercomputers, Telecom Networks to Evolve into Computing Infra… (Jul 02)",
         "디지털투데이 — Nokia says AI-RAN is reality as it speeds network-AI integration - 디지털투데이 (Jul 02)"
       ],
-      "reasoning": "Value = 151 unique articles from 97 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: The Fast Mode, Network World, Business Wire.",
+      "reasoning": "Value = 146 unique articles from 96 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -5. Leading outlets: The Fast Mode, Network World, Business Wire.",
       "top_keyword": "agentic"
     },
     {
       "topic": "AI Back-End / GPU Fabric",
-      "total": 129,
-      "unique_outlets": 79,
+      "total": 131,
+      "unique_outlets": 80,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 2,
       "bullets": [
-        "FoneArena.com — Lightstorm Partners with Microsoft, Singtel, and Tata Communications to build I-2SEA submarine cable system… (Jul 02)",
+        "GlobeNewswire — Qivurn Data Centers Expands Global AI Computing Infrastructure Network - GlobeNewswire (Jun 30)",
         "Lavender Hotel — The Architecture of Interconnected Intelligence: A Structura - Lavender Hotel (Jul 02)"
       ],
-      "reasoning": "Value = 129 unique articles from 79 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: TradingView, SDxCentral, 富途牛牛.",
+      "reasoning": "Value = 131 unique articles from 80 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +2. Leading outlets: TradingView, AD HOC NEWS, SDxCentral.",
       "top_keyword": "data center"
     },
     {
       "topic": "Adoption Barriers & Skills",
-      "total": 165,
-      "unique_outlets": 122,
+      "total": 194,
+      "unique_outlets": 134,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 29,
       "bullets": [
         "McKinsey & Company — AI data readiness: The key to scaling impact - McKinsey & Company (Jun 23)",
         "GlobeNewswire — New Absorb Software Report Shows AI Ambition in L&D - GlobeNewswire (Jun 29)"
       ],
-      "reasoning": "Value = 165 unique articles from 122 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: The Futurum Group, Coursera, cio.com.",
+      "reasoning": "Value = 194 unique articles from 134 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +29. Leading outlets: Simplilearn.com, The Futurum Group, Coursera.",
       "top_keyword": "agentic"
     },
     {
       "topic": "Private / Sovereign AI",
-      "total": 191,
-      "unique_outlets": 130,
+      "total": 197,
+      "unique_outlets": 131,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 6,
       "bullets": [
         "GlobeNewswire — Digital Realty Launches ServiceFabric® MCP, Bringing AI-Native Programmable Control to 800+ Data Centers -… (Jun 17)",
         "NewMediaWire — 45Drives Announces First Wave of Featured Speakers for Fourth Annual Creator Summit - NewMediaWire (Jul 02)"
       ],
-      "reasoning": "Value = 191 unique articles from 130 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Data Center Dynamics, Indiatimes, Business Wire.",
+      "reasoning": "Value = 197 unique articles from 131 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +6. Leading outlets: Data Center Dynamics, SiliconANGLE, Business Wire.",
       "top_keyword": "sovereign"
     },
     {
       "topic": "Power & Sustainability",
-      "total": 276,
-      "unique_outlets": 182,
+      "total": 275,
+      "unique_outlets": 174,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": -1,
       "bullets": [
         "McKinsey & Company — Colocation data centers: The infrastructure race behind AI - McKinsey & Company (Jun 30)",
         "Statista — The Other Cost of AI: Data Center Power Demand Surges - Statista (Jul 02)"
       ],
-      "reasoning": "Value = 276 unique articles from 182 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Yahoo Finance, Data Center Dynamics, Tom's Hardware.",
+      "reasoning": "Value = 275 unique articles from 174 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -1. Leading outlets: Data Center Dynamics, Tom's Hardware, Yahoo Finance.",
       "top_keyword": "data center"
     },
     {
       "topic": "High-Speed Optics",
-      "total": 114,
-      "unique_outlets": 66,
+      "total": 115,
+      "unique_outlets": 65,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 1,
       "bullets": [
         "SDxCentral — FS joins crowded 800G coherent optics space with AI-centric scale-across pluggables - SDxCentral (Jul 02)",
         "IndexBox — Qsfp Module Market Growth Forecast to 2035: AI and 800G Adoption Accelerate Demand - News and Statistics -… (Jul 02)"
       ],
-      "reasoning": "Value = 114 unique articles from 66 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: TradingView, IndexBox, Yahoo Finance.",
+      "reasoning": "Value = 115 unique articles from 65 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +1. Leading outlets: TradingView, IndexBox, Yahoo Finance.",
       "top_keyword": "data center"
     },
     {
       "topic": "Ethernet vs NVLink (Scale-up)",
-      "total": 36,
-      "unique_outlets": 27,
+      "total": 37,
+      "unique_outlets": 28,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 1,
       "bullets": [
         "Tech Times — AMD Helios Faces Nvidia Vera Rubin at July 23 Keynote: Memory Leads, Training Trails - Tech Times (Jun 30)",
         "The Register — What the OCI MSA didn't solve for AI scaling (Jun 30)"
       ],
-      "reasoning": "Value = 36 unique articles from 27 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Stock Titan, HPCwire, Engineering.com.",
+      "reasoning": "Value = 37 unique articles from 28 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +1. Leading outlets: Stock Titan, Network World, PR Newswire.",
       "top_keyword": "agentic"
     },
     {
       "topic": "Vendor Product Launch",
-      "total": 191,
-      "unique_outlets": 109,
+      "total": 183,
+      "unique_outlets": 106,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": -8,
       "bullets": [
-        "GlobeNewswire — GoGo AI Network Inc. and Algo8 Industrial AI Inc. Announce - GlobeNewswire (Jun 22)",
+        "GlobeNewswire — Mplify Publishes LSO Solution Provider Landscape Report, First in New AI-Ready NaaS Research Series - Globe… (Jun 17)",
         "Futuriom — DriveNets Intros New High-Speed AI Switches - Futuriom (Jul 02)"
       ],
-      "reasoning": "Value = 191 unique articles from 109 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Let's Data Science, AD HOC NEWS, Network World.",
+      "reasoning": "Value = 183 unique articles from 106 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -8. Leading outlets: AD HOC NEWS, Network World, Let's Data Science.",
       "top_keyword": "data center"
     },
     {
       "topic": "Network Security (Zero-Trust)",
-      "total": 210,
-      "unique_outlets": 120,
+      "total": 207,
+      "unique_outlets": 111,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": -3,
       "bullets": [
         "GlobeNewswire — Next-Generation Firewall Market to Hit USD 17.56 Billion by - GlobeNewswire (Jun 30)",
         "citybiz — Akamai Completes $205 Million LayerX Acquisition to Expand Zero Trust Security Platform - citybiz (Jul 02)"
       ],
-      "reasoning": "Value = 210 unique articles from 120 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Network World, TradingView, Stock Titan.",
-      "top_keyword": "data center"
+      "reasoning": "Value = 207 unique articles from 111 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -3. Leading outlets: Network World, Cisco Blogs, Stock Titan.",
+      "top_keyword": "zero-trust"
     },
     {
       "topic": "Network Observability",
-      "total": 104,
-      "unique_outlets": 71,
+      "total": 105,
+      "unique_outlets": 68,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 1,
       "bullets": [
         "Cisco Blogs — Cisco Nexus One, next-generation data center networking architecture - Cisco Blogs (Jul 02)",
-        "IndexBox — OpenSearch Foundation: Open Data Layer for AI, Search, and Observability | EE Times - News and Statistics -… (Jul 02)"
+        "Indiatimes — Saudi organisations face AI-driven network capacity crunch within two years, new study finds - Indiatimes (Jul 02)"
       ],
-      "reasoning": "Value = 104 unique articles from 71 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: Network World, Business Wire, Let's Data Science.",
+      "reasoning": "Value = 105 unique articles from 68 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +1. Leading outlets: Network World, The Fast Mode, Computer Weekly.",
       "top_keyword": "agentic"
     },
     {
       "topic": "NaaS / Cloud Connectivity",
-      "total": 120,
-      "unique_outlets": 65,
+      "total": 119,
+      "unique_outlets": 63,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": -1,
       "bullets": [
         "GlobeNewswire — Mplify and Leading Internet Exchanges Collaborate on LSO APIs to Accelerate Interconnection Automation - Gl… (Jun 04)",
-        "The Manila Times — Spectrotel Recognized Among the World's Top 100 Managed Service Providers as Enterprise Networking Enters a… (Jul 01)"
+        "AD HOC NEWS — Juniper Networks focuses on network solutions for long-term growth - AD HOC NEWS (Jul 02)"
       ],
-      "reasoning": "Value = 120 unique articles from 65 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: AD HOC NEWS, Fortune Business Insights, The Fast Mode.",
+      "reasoning": "Value = 119 unique articles from 63 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -1. Leading outlets: AD HOC NEWS, Fortune Business Insights, The Fast Mode.",
       "top_keyword": "data center"
     },
     {
       "topic": "Competitive / M&A",
-      "total": 106,
-      "unique_outlets": 68,
+      "total": 111,
+      "unique_outlets": 70,
       "window_days": 35,
-      "threshold": 15,
-      "delta_vs_prev": null,
+      "threshold": 12,
+      "delta_vs_prev": 5,
       "bullets": [
         "GlobeNewswire — GoGo AI Network Inc. and Algo8 Industrial AI Inc. Announce - GlobeNewswire (Jun 22)",
         "Stock Titan — Akamai buys LayerX to tighten browser security and AI controls - Stock Titan (Jul 02)"
       ],
-      "reasoning": "Value = 106 unique articles from 68 distinct outlets in the last 35 days (rule: ≥15). Leading outlets: TradingView, Moomoo, Network World.",
+      "reasoning": "Value = 111 unique articles from 70 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +5. Leading outlets: Moomoo, TradingView, Network World.",
       "top_keyword": "data center"
     }
   ],
@@ -453,321 +453,321 @@
     {
       "keyword": "AI infrastructure",
       "category": "Market",
-      "count": 85,
-      "delta": null
+      "count": 84,
+      "delta": -1
     },
     {
       "keyword": "data center",
       "category": "Market",
-      "count": 362,
-      "delta": null
+      "count": 371,
+      "delta": 9
     },
     {
       "keyword": "hyperscaler",
       "category": "Market",
-      "count": 5,
-      "delta": null
+      "count": 8,
+      "delta": 3
     },
     {
       "keyword": "GPU",
       "category": "Fabric",
-      "count": 26,
-      "delta": null
+      "count": 24,
+      "delta": -2
     },
     {
       "keyword": "Ethernet",
       "category": "Fabric",
-      "count": 23,
-      "delta": null
+      "count": 24,
+      "delta": 1
     },
     {
       "keyword": "scale-up",
       "category": "Fabric",
       "count": 3,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "SONiC",
       "category": "Fabric",
       "count": 1,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "NVLink",
       "category": "Fabric",
       "count": 2,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "AIOps",
       "category": "Operations",
       "count": 5,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "agentic",
       "category": "Operations",
-      "count": 92,
-      "delta": null
+      "count": 94,
+      "delta": 2
     },
     {
       "keyword": "network observability",
       "category": "Operations",
-      "count": 10,
-      "delta": null
+      "count": 9,
+      "delta": -1
     },
     {
       "keyword": "800G",
       "category": "Optics",
       "count": 21,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "NaaS",
       "category": "Connectivity",
-      "count": 5,
-      "delta": null
+      "count": 6,
+      "delta": 1
     },
     {
       "keyword": "PCF",
       "category": "Connectivity",
       "count": 2,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "multi-cloud",
       "category": "Connectivity",
-      "count": 5,
-      "delta": null
+      "count": 4,
+      "delta": -1
     },
     {
       "keyword": "private AI",
       "category": "Strategy",
-      "count": 3,
-      "delta": null
+      "count": 4,
+      "delta": 1
     },
     {
       "keyword": "sovereign",
       "category": "Strategy",
-      "count": 79,
-      "delta": null
+      "count": 82,
+      "delta": 3
     },
     {
       "keyword": "zero-trust",
       "category": "Security",
       "count": 30,
-      "delta": null
+      "delta": 0
     },
     {
       "keyword": "liquid cooling",
       "category": "Power",
-      "count": 23,
-      "delta": null
+      "count": 25,
+      "delta": 2
     },
     {
       "keyword": "Mist",
       "category": "Vendor",
       "count": 0,
-      "delta": null
+      "delta": 0
     }
   ],
   "vendors": [
     {
       "vendor": "Cisco",
       "category": "Networking vendor",
-      "count": 82,
-      "delta": null
+      "count": 85,
+      "delta": 3
     },
     {
       "vendor": "Juniper",
       "category": "Networking vendor",
       "count": 7,
-      "delta": null
+      "delta": 0
     },
     {
       "vendor": "HPE/Juniper",
       "category": "Networking vendor",
       "count": 6,
-      "delta": null
+      "delta": 0
     },
     {
       "vendor": "Arista",
       "category": "Networking vendor",
-      "count": 11,
-      "delta": null
+      "count": 13,
+      "delta": 2
     },
     {
       "vendor": "NVIDIA",
       "category": "Silicon / fabric",
-      "count": 152,
-      "delta": null
+      "count": 145,
+      "delta": -7
     },
     {
       "vendor": "Lumen",
       "category": "Telco / NSP",
       "count": 13,
-      "delta": null
+      "delta": 0
     },
     {
       "vendor": "AT&T",
       "category": "Telco / NSP",
       "count": 2,
-      "delta": null
+      "delta": 0
     },
     {
       "vendor": "Verizon",
       "category": "Telco / NSP",
-      "count": 4,
-      "delta": null
+      "count": 5,
+      "delta": 1
     },
     {
       "vendor": "NTT DATA",
       "category": "Telco / NSP",
       "count": 4,
-      "delta": null
+      "delta": 0
     },
     {
       "vendor": "Orange Business",
       "category": "Telco / NSP",
       "count": 0,
-      "delta": null
+      "delta": 0
     },
     {
       "vendor": "Equinix",
       "category": "Data center / interconnect",
-      "count": 14,
-      "delta": null
+      "count": 11,
+      "delta": -3
     },
     {
       "vendor": "Tata Communications",
       "category": "Telco / NSP (baseline)",
-      "count": 16,
-      "delta": null
+      "count": 9,
+      "delta": -7
     },
     {
       "vendor": "Microsoft",
       "category": "Hyperscaler",
-      "count": 37,
-      "delta": null
+      "count": 34,
+      "delta": -3
     },
     {
       "vendor": "Google",
       "category": "Hyperscaler",
-      "count": 3,
-      "delta": null
+      "count": 4,
+      "delta": 1
     }
   ],
   "industries": [
     {
       "industry": "Technology",
-      "count": 16,
-      "delta": null
+      "count": 20,
+      "delta": 4
     },
     {
       "industry": "Financial Services",
-      "count": 9,
-      "delta": null
+      "count": 12,
+      "delta": 3
     },
     {
       "industry": "Healthcare",
       "count": 5,
-      "delta": null
+      "delta": 0
     },
     {
       "industry": "Manufacturing & Industrial",
-      "count": 36,
-      "delta": null
+      "count": 37,
+      "delta": 1
     },
     {
       "industry": "Retail & Consumer",
-      "count": 2,
-      "delta": null
+      "count": 4,
+      "delta": 2
     },
     {
       "industry": "Energy & Utilities",
       "count": 6,
-      "delta": null
+      "delta": 0
     },
     {
       "industry": "Media & Entertainment",
       "count": 0,
-      "delta": null
+      "delta": 0
     },
     {
       "industry": "Logistics & Transportation",
-      "count": 13,
-      "delta": null
+      "count": 15,
+      "delta": 2
     },
     {
       "industry": "Professional Services",
-      "count": 4,
-      "delta": null
+      "count": 3,
+      "delta": -1
     }
   ],
   "trends": [
     {
       "rank": 1,
       "trend": "Power & Sustainability",
-      "description": "276 articles across 182 outlets this window; leading theme: data center.",
+      "description": "275 articles across 174 outlets this window; leading theme: data center.",
       "evidence": "McKinsey & Company — Colocation data centers: The infrastructure race behind AI - McKinsey & Company (Jun 30)"
     },
     {
       "rank": 2,
       "trend": "Market Sizing & Spend",
-      "description": "259 articles across 124 outlets this window; leading theme: data center.",
+      "description": "269 articles across 130 outlets this window; leading theme: data center.",
       "evidence": "McKinsey & Company — Colocation data centers: The infrastructure race behind AI - McKinsey & Company (Jun 30)"
     },
     {
       "rank": 3,
       "trend": "Network Security (Zero-Trust)",
-      "description": "210 articles across 120 outlets this window; leading theme: data center.",
+      "description": "207 articles across 111 outlets this window; leading theme: zero-trust.",
       "evidence": "GlobeNewswire — Next-Generation Firewall Market to Hit USD 17.56 Billion by - GlobeNewswire (Jun 30)"
     },
     {
       "rank": 4,
       "trend": "Private / Sovereign AI",
-      "description": "191 articles across 130 outlets this window; leading theme: sovereign.",
+      "description": "197 articles across 131 outlets this window; leading theme: sovereign.",
       "evidence": "GlobeNewswire — Digital Realty Launches ServiceFabric® MCP, Bringing AI-Native Programmable Control to 800+ Data Centers -… (Jun 17)"
     },
     {
       "rank": 5,
-      "trend": "Vendor Product Launch",
-      "description": "191 articles across 109 outlets this window; leading theme: data center.",
-      "evidence": "GlobeNewswire — GoGo AI Network Inc. and Algo8 Industrial AI Inc. Announce - GlobeNewswire (Jun 22)"
+      "trend": "Adoption Barriers & Skills",
+      "description": "194 articles across 134 outlets this window; leading theme: agentic.",
+      "evidence": "McKinsey & Company — AI data readiness: The key to scaling impact - McKinsey & Company (Jun 23)"
     },
     {
       "rank": 6,
-      "trend": "Adoption Barriers & Skills",
-      "description": "165 articles across 122 outlets this window; leading theme: agentic.",
-      "evidence": "McKinsey & Company — AI data readiness: The key to scaling impact - McKinsey & Company (Jun 23)"
+      "trend": "Vendor Product Launch",
+      "description": "183 articles across 106 outlets this window; leading theme: data center.",
+      "evidence": "GlobeNewswire — Mplify Publishes LSO Solution Provider Landscape Report, First in New AI-Ready NaaS Research Series - Globe… (Jun 17)"
     },
     {
       "rank": 7,
       "trend": "AIOps / Autonomous Networks",
-      "description": "151 articles across 97 outlets this window; leading theme: agentic.",
+      "description": "146 articles across 96 outlets this window; leading theme: agentic.",
       "evidence": "finance.biggo.com — Nokia Declares Base Stations Will Become AI Supercomputers, Telecom Networks to Evolve into Computing Infra… (Jul 02)"
     },
     {
       "rank": 8,
       "trend": "AI Back-End / GPU Fabric",
-      "description": "129 articles across 79 outlets this window; leading theme: data center.",
-      "evidence": "FoneArena.com — Lightstorm Partners with Microsoft, Singtel, and Tata Communications to build I-2SEA submarine cable system… (Jul 02)"
+      "description": "131 articles across 80 outlets this window; leading theme: data center.",
+      "evidence": "GlobeNewswire — Qivurn Data Centers Expands Global AI Computing Infrastructure Network - GlobeNewswire (Jun 30)"
     },
     {
       "rank": 9,
       "trend": "NaaS / Cloud Connectivity",
-      "description": "120 articles across 65 outlets this window; leading theme: data center.",
+      "description": "119 articles across 63 outlets this window; leading theme: data center.",
       "evidence": "GlobeNewswire — Mplify and Leading Internet Exchanges Collaborate on LSO APIs to Accelerate Interconnection Automation - Gl… (Jun 04)"
     },
     {
       "rank": 10,
       "trend": "High-Speed Optics",
-      "description": "114 articles across 66 outlets this window; leading theme: data center.",
+      "description": "115 articles across 65 outlets this window; leading theme: data center.",
       "evidence": "SDxCentral — FS joins crowded 800G coherent optics space with AI-centric scale-across pluggables - SDxCentral (Jul 02)"
     }
   ],
   "totals": {
-    "articles": 1838,
-    "outlets": 663
+    "articles": 1864,
+    "outlets": 676
   }
 }

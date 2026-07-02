@@ -67,5 +67,74 @@
       "Logistics & Transportation": 13,
       "Professional Services": 4
     }
+  },
+  {
+    "month": "2026-07",
+    "refresh_number": 2,
+    "total_articles": 1864,
+    "topic_totals": {
+      "Market Sizing & Spend": 269,
+      "AIOps / Autonomous Networks": 146,
+      "AI Back-End / GPU Fabric": 131,
+      "Adoption Barriers & Skills": 194,
+      "Private / Sovereign AI": 197,
+      "Power & Sustainability": 275,
+      "High-Speed Optics": 115,
+      "Ethernet vs NVLink (Scale-up)": 37,
+      "Vendor Product Launch": 183,
+      "Network Security (Zero-Trust)": 207,
+      "Network Observability": 105,
+      "NaaS / Cloud Connectivity": 119,
+      "Competitive / M&A": 111
+    },
+    "keyword_counts": {
+      "AI infrastructure": 84,
+      "data center": 371,
+      "hyperscaler": 8,
+      "GPU": 24,
+      "Ethernet": 24,
+      "scale-up": 3,
+      "SONiC": 1,
+      "NVLink": 2,
+      "AIOps": 5,
+      "agentic": 94,
+      "network observability": 9,
+      "800G": 21,
+      "NaaS": 6,
+      "PCF": 2,
+      "multi-cloud": 4,
+      "private AI": 4,
+      "sovereign": 82,
+      "zero-trust": 30,
+      "liquid cooling": 25,
+      "Mist": 0
+    },
+    "vendor_counts": {
+      "Cisco": 85,
+      "Juniper": 7,
+      "HPE/Juniper": 6,
+      "Arista": 13,
+      "NVIDIA": 145,
+      "Lumen": 13,
+      "AT&T": 2,
+      "Verizon": 5,
+      "NTT DATA": 4,
+      "Orange Business": 0,
+      "Equinix": 11,
+      "Tata Communications": 9,
+      "Microsoft": 34,
+      "Google": 4
+    },
+    "industry_counts": {
+      "Technology": 20,
+      "Financial Services": 12,
+      "Healthcare": 5,
+      "Manufacturing & Industrial": 37,
+      "Retail & Consumer": 4,
+      "Energy & Utilities": 6,
+      "Media & Entertainment": 0,
+      "Logistics & Transportation": 15,
+      "Professional Services": 3
+    }
   }
 ]
