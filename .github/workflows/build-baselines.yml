@@ -1,6 +1,3 @@
-# build-baselines — run ONCE, by hand, right after uploading the repo.
-# Converts the Week 1 and Week 3 Excel workbooks into JSON baselines and
-# seeds the site with Week 1 data so the dashboard renders immediately.
 name: build-baselines
 
 on:
