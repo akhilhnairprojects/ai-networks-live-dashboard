@@ -1,7 +1,7 @@
 {
   "label": "Week 3 account model",
   "generated_from": "accounts.xlsx",
-  "generated_at": "2026-07-02T06:35:11.807210+00:00",
+  "generated_at": "2026-07-02T16:50:00.807910+00:00",
   "model_weights": {
     "AI Hiring": 0.25,
     "AI Announce": 0.25,
