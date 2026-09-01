@@ -1,41 +1,41 @@
 {
-  "run_at": "2026-08-01T08:35:06.786219+00:00",
-  "month": "2026-08",
+  "run_at": "2026-09-01T11:43:18.926979+00:00",
+  "month": "2026-09",
   "mode": "repeat_refresh",
   "threshold": 12,
   "per_topic": {
     "Market Sizing & Spend": {
-      "sources": 272,
+      "sources": 254,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "AIOps / Autonomous Networks": {
-      "sources": 161,
+      "sources": 146,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "AI Back-End / GPU Fabric": {
-      "sources": 88,
+      "sources": 119,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Adoption Barriers & Skills": {
-      "sources": 157,
+      "sources": 155,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Private / Sovereign AI": {
-      "sources": 185,
+      "sources": 168,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Power & Sustainability": {
-      "sources": 282,
+      "sources": 285,
       "threshold": 12,
       "window_days": 35,
       "pass": true
@@ -47,37 +47,37 @@
       "pass": true
     },
     "Ethernet vs NVLink (Scale-up)": {
-      "sources": 36,
+      "sources": 33,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Vendor Product Launch": {
-      "sources": 163,
+      "sources": 171,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Network Security (Zero-Trust)": {
-      "sources": 196,
+      "sources": 159,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Network Observability": {
-      "sources": 92,
+      "sources": 114,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "NaaS / Cloud Connectivity": {
-      "sources": 109,
+      "sources": 108,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Competitive / M&A": {
-      "sources": 99,
+      "sources": 92,
       "threshold": 12,
       "window_days": 35,
       "pass": true
