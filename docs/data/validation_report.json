@@ -1,83 +1,83 @@
 {
-  "run_at": "2026-10-01T13:24:57.430869+00:00",
-  "month": "2026-10",
+  "run_at": "2026-11-01T13:31:19.138714+00:00",
+  "month": "2026-11",
   "mode": "repeat_refresh",
   "threshold": 12,
   "per_topic": {
     "Market Sizing & Spend": {
-      "sources": 256,
+      "sources": 137,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "AIOps / Autonomous Networks": {
-      "sources": 162,
+      "sources": 185,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "AI Back-End / GPU Fabric": {
-      "sources": 116,
+      "sources": 120,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Adoption Barriers & Skills": {
-      "sources": 170,
+      "sources": 174,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Private / Sovereign AI": {
-      "sources": 166,
+      "sources": 134,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Power & Sustainability": {
-      "sources": 257,
+      "sources": 203,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "High-Speed Optics": {
-      "sources": 121,
+      "sources": 111,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Ethernet vs NVLink (Scale-up)": {
-      "sources": 31,
+      "sources": 42,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Vendor Product Launch": {
-      "sources": 174,
+      "sources": 86,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Network Security (Zero-Trust)": {
-      "sources": 174,
+      "sources": 133,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Network Observability": {
-      "sources": 110,
+      "sources": 103,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "NaaS / Cloud Connectivity": {
-      "sources": 104,
+      "sources": 91,
       "threshold": 12,
       "window_days": 35,
       "pass": true
     },
     "Competitive / M&A": {
-      "sources": 83,
+      "sources": 55,
       "threshold": 12,
       "window_days": 35,
       "pass": true

@@ -1,0 +1,773 @@
+{
+  "generated_at": "2026-11-01T13:31:19.138714+00:00",
+  "month": "2026-11",
+  "refresh_number": 6,
+  "data_status": "live",
+  "heatmap": [
+    {
+      "topic": "Market Sizing & Spend",
+      "source_type": "Analyst Report",
+      "count": 1
+    },
+    {
+      "topic": "Market Sizing & Spend",
+      "source_type": "Industry News",
+      "count": 136
+    },
+    {
+      "topic": "Market Sizing & Spend",
+      "source_type": "Market Research",
+      "count": 0
+    },
+    {
+      "topic": "Market Sizing & Spend",
+      "source_type": "Vendor (Primary)",
+      "count": 0
+    },
+    {
+      "topic": "AIOps / Autonomous Networks",
+      "source_type": "Analyst Report",
+      "count": 1
+    },
+    {
+      "topic": "AIOps / Autonomous Networks",
+      "source_type": "Industry News",
+      "count": 170
+    },
+    {
+      "topic": "AIOps / Autonomous Networks",
+      "source_type": "Market Research",
+      "count": 0
+    },
+    {
+      "topic": "AIOps / Autonomous Networks",
+      "source_type": "Vendor (Primary)",
+      "count": 14
+    },
+    {
+      "topic": "AI Back-End / GPU Fabric",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "AI Back-End / GPU Fabric",
+      "source_type": "Industry News",
+      "count": 110
+    },
+    {
+      "topic": "AI Back-End / GPU Fabric",
+      "source_type": "Market Research",
+      "count": 1
+    },
+    {
+      "topic": "AI Back-End / GPU Fabric",
+      "source_type": "Vendor (Primary)",
+      "count": 9
+    },
+    {
+      "topic": "Adoption Barriers & Skills",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Adoption Barriers & Skills",
+      "source_type": "Industry News",
+      "count": 168
+    },
+    {
+      "topic": "Adoption Barriers & Skills",
+      "source_type": "Market Research",
+      "count": 1
+    },
+    {
+      "topic": "Adoption Barriers & Skills",
+      "source_type": "Vendor (Primary)",
+      "count": 5
+    },
+    {
+      "topic": "Private / Sovereign AI",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Private / Sovereign AI",
+      "source_type": "Industry News",
+      "count": 131
+    },
+    {
+      "topic": "Private / Sovereign AI",
+      "source_type": "Market Research",
+      "count": 0
+    },
+    {
+      "topic": "Private / Sovereign AI",
+      "source_type": "Vendor (Primary)",
+      "count": 3
+    },
+    {
+      "topic": "Power & Sustainability",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Power & Sustainability",
+      "source_type": "Industry News",
+      "count": 201
+    },
+    {
+      "topic": "Power & Sustainability",
+      "source_type": "Market Research",
+      "count": 0
+    },
+    {
+      "topic": "Power & Sustainability",
+      "source_type": "Vendor (Primary)",
+      "count": 2
+    },
+    {
+      "topic": "High-Speed Optics",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "High-Speed Optics",
+      "source_type": "Industry News",
+      "count": 108
+    },
+    {
+      "topic": "High-Speed Optics",
+      "source_type": "Market Research",
+      "count": 1
+    },
+    {
+      "topic": "High-Speed Optics",
+      "source_type": "Vendor (Primary)",
+      "count": 2
+    },
+    {
+      "topic": "Ethernet vs NVLink (Scale-up)",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Ethernet vs NVLink (Scale-up)",
+      "source_type": "Industry News",
+      "count": 38
+    },
+    {
+      "topic": "Ethernet vs NVLink (Scale-up)",
+      "source_type": "Market Research",
+      "count": 0
+    },
+    {
+      "topic": "Ethernet vs NVLink (Scale-up)",
+      "source_type": "Vendor (Primary)",
+      "count": 4
+    },
+    {
+      "topic": "Vendor Product Launch",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Vendor Product Launch",
+      "source_type": "Industry News",
+      "count": 65
+    },
+    {
+      "topic": "Vendor Product Launch",
+      "source_type": "Market Research",
+      "count": 1
+    },
+    {
+      "topic": "Vendor Product Launch",
+      "source_type": "Vendor (Primary)",
+      "count": 20
+    },
+    {
+      "topic": "Network Security (Zero-Trust)",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Network Security (Zero-Trust)",
+      "source_type": "Industry News",
+      "count": 120
+    },
+    {
+      "topic": "Network Security (Zero-Trust)",
+      "source_type": "Market Research",
+      "count": 2
+    },
+    {
+      "topic": "Network Security (Zero-Trust)",
+      "source_type": "Vendor (Primary)",
+      "count": 11
+    },
+    {
+      "topic": "Network Observability",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Network Observability",
+      "source_type": "Industry News",
+      "count": 86
+    },
+    {
+      "topic": "Network Observability",
+      "source_type": "Market Research",
+      "count": 1
+    },
+    {
+      "topic": "Network Observability",
+      "source_type": "Vendor (Primary)",
+      "count": 16
+    },
+    {
+      "topic": "NaaS / Cloud Connectivity",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "NaaS / Cloud Connectivity",
+      "source_type": "Industry News",
+      "count": 80
+    },
+    {
+      "topic": "NaaS / Cloud Connectivity",
+      "source_type": "Market Research",
+      "count": 1
+    },
+    {
+      "topic": "NaaS / Cloud Connectivity",
+      "source_type": "Vendor (Primary)",
+      "count": 10
+    },
+    {
+      "topic": "Competitive / M&A",
+      "source_type": "Analyst Report",
+      "count": 0
+    },
+    {
+      "topic": "Competitive / M&A",
+      "source_type": "Industry News",
+      "count": 54
+    },
+    {
+      "topic": "Competitive / M&A",
+      "source_type": "Market Research",
+      "count": 0
+    },
+    {
+      "topic": "Competitive / M&A",
+      "source_type": "Vendor (Primary)",
+      "count": 1
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Market Sizing & Spend",
+      "total": 137,
+      "unique_outlets": 75,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -119,
+      "bullets": [
+        "Omdia — As enterprise AI spend continues to rise, the PC ecosystem must define the on-device case for hybrid AI - O… (Oct 30)",
+        "BW Businessworld — S&P Revises Meta Outlook As AI Spending Pressures Cash Flow - BW Businessworld (Oct 31)"
+      ],
+      "reasoning": "Value = 137 unique articles from 75 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -119. Leading outlets: Fortune Business Insights, Yahoo Finance, Reuters.",
+      "top_keyword": "data center"
+    },
+    {
+      "topic": "AIOps / Autonomous Networks",
+      "total": 185,
+      "unique_outlets": 109,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": 23,
+      "bullets": [
+        "McKinsey & Company — Agentic AI in transaction monitoring: How banks can scale AI in compliance - McKinsey & Company (Oct 26)",
+        "The Filipino Times — Ras Al Khaimah expands self-driving taxi trials, launches autonomous vehicle testing facility - The Filipin… (Nov 01)"
+      ],
+      "reasoning": "Value = 185 unique articles from 109 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +23. Leading outlets: Business Wire, The Fast Mode, Fortune Business Insights.",
+      "top_keyword": "agentic"
+    },
+    {
+      "topic": "AI Back-End / GPU Fabric",
+      "total": 120,
+      "unique_outlets": 76,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": 4,
+      "bullets": [
+        "GlobeNewswire — Micas Networks Unveils Three 102.4T Open Ethernet Platforms for AI Factories at OCP Global Summit 2026 - Gl… (Oct 12)",
+        "NeoTeo — Meta Prometheus network hardware: what BAG connects - NeoTeo (Oct 31)"
+      ],
+      "reasoning": "Value = 120 unique articles from 76 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +4. Leading outlets: SDxCentral, The Register, Tech Times.",
+      "top_keyword": "data center"
+    },
+    {
+      "topic": "Adoption Barriers & Skills",
+      "total": 174,
+      "unique_outlets": 122,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": 4,
+      "bullets": [
+        "GlobeNewswire — CTERA Introduces Forward Deployed Engineering to Close the AI Skills Gap and Accelerate Enterprise Deployme… (Oct 06)",
+        "Zprávy Kurzy.cz — Philip R. Lane: AI adoption in Europe - Zprávy Kurzy.cz (Oct 30)"
+      ],
+      "reasoning": "Value = 174 unique articles from 122 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +4. Leading outlets: TechGig, Network World, Livemint.",
+      "top_keyword": "agentic"
+    },
+    {
+      "topic": "Private / Sovereign AI",
+      "total": 134,
+      "unique_outlets": 75,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -32,
+      "bullets": [
+        "EIN News — Trusted Human Context Emerges as a New Infrastructure Requirement for Enterprise AI - EIN News (Nov 01)",
+        "Simply Wall St — What Does Advanced Micro Devices (AMD) Winning A Private AI Build Mean? - Simply Wall St (Nov 01)"
+      ],
+      "reasoning": "Value = 134 unique articles from 75 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -32. Leading outlets: Fortune Business Insights, Yahoo Finance, Konsulteer.",
+      "top_keyword": "sovereign"
+    },
+    {
+      "topic": "Power & Sustainability",
+      "total": 203,
+      "unique_outlets": 118,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -54,
+      "bullets": [
+        "DW.com — The hidden environmental cost of AI data centers - DW.com (Oct 31)",
+        "Crude Oil Prices Today | OilPrice.com — DARPA Backs Project to Measure AI Energy Use at Every Stage of the Workflow - Crude Oil Prices Today | OilP… (Oct 31)"
+      ],
+      "reasoning": "Value = 203 unique articles from 118 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -54. Leading outlets: Data Center Frontier, Data Center Dynamics, Refindustry.",
+      "top_keyword": "data center"
+    },
+    {
+      "topic": "High-Speed Optics",
+      "total": 111,
+      "unique_outlets": 62,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -10,
+      "bullets": [
+        "GlobeNewswire — Celestica Introduces the DS6005 Data Center Switch with Co-Packaged Optics to Enable Power-Efficient AI Fab… (Oct 12)",
+        "Data Centre Solutions — Site-to-Site connectivity is reshaping data centre cabling - Data Centre Solutions (Oct 30)"
+      ],
+      "reasoning": "Value = 111 unique articles from 62 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -10. Leading outlets: TradingView, SDxCentral, Simple Tech Trend.",
+      "top_keyword": "data center"
+    },
+    {
+      "topic": "Ethernet vs NVLink (Scale-up)",
+      "total": 42,
+      "unique_outlets": 31,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": 11,
+      "bullets": [
+        "news.lavx.hu — Nvidia's networking revenue now exceeds Cisco's total sales - news.lavx.hu (Oct 31)",
+        "The Register — Backbone of a beast – charting Nvidia's rise to networking titan - The Register (Oct 31)"
+      ],
+      "reasoning": "Value = 42 unique articles from 31 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: +11. Leading outlets: TradingView, remio, SDxCentral.",
+      "top_keyword": "Ethernet"
+    },
+    {
+      "topic": "Vendor Product Launch",
+      "total": 86,
+      "unique_outlets": 59,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -88,
+      "bullets": [
+        "GlobeNewswire — Celestica Introduces the DS6005 Data Center Switch with Co-Packaged Optics to Enable Power-Efficient AI Fab… (Oct 12)",
+        "Mashable — Amazon's new Texas AI data center will include massive amounts of air pollution - Mashable (Oct 31)"
+      ],
+      "reasoning": "Value = 86 unique articles from 59 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -88. Leading outlets: Business Wire, NVIDIA Newsroom, Palo Alto Networks.",
+      "top_keyword": "data center"
+    },
+    {
+      "topic": "Network Security (Zero-Trust)",
+      "total": 133,
+      "unique_outlets": 84,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -41,
+      "bullets": [
+        "GlobeNewswire — DP World Scales U.S. Data Center Logistics Network as AI Boom Drives Demand for Specialized Supply Chains -… (Oct 20)",
+        "ABC News & Headlines – Australian Broadcasting Corporation — From fridges to nuclear power plants, hackers are gaining control - ABC News & Headlines – Australian Broad… (Nov 01)"
+      ],
+      "reasoning": "Value = 133 unique articles from 84 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -41. Leading outlets: Network World, Yahoo Finance, The Register.",
+      "top_keyword": "data center"
+    },
+    {
+      "topic": "Network Observability",
+      "total": 103,
+      "unique_outlets": 76,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -7,
+      "bullets": [
+        "GlobeNewswire — Gigamon Extends the Deep Observability Pipeline for - GlobeNewswire (Oct 20)",
+        "Google Cloud — What’s new in AI infrastructure and orchestration in October - Google Cloud (Oct 31)"
+      ],
+      "reasoning": "Value = 103 unique articles from 76 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -7. Leading outlets: Cisco Blogs, Network World, CoreWeave.",
+      "top_keyword": "network observability"
+    },
+    {
+      "topic": "NaaS / Cloud Connectivity",
+      "total": 91,
+      "unique_outlets": 56,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -13,
+      "bullets": [
+        "GlobeNewswire — AI in Network Market Surges to $21.52 billion at a CAGR 17.0% by 2032 | Report by MarketsandMarkets™ - Glob… (Oct 26)",
+        "ad-hoc-news.de — Deutsche Telekom's Pipeline Swells With Cloud, AI and Private Network Deals — All Still Short of a - ad-hoc… (Nov 01)"
+      ],
+      "reasoning": "Value = 91 unique articles from 56 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -13. Leading outlets: Fortune Business Insights, ET Telecom, SDxCentral.",
+      "top_keyword": "NaaS"
+    },
+    {
+      "topic": "Competitive / M&A",
+      "total": 55,
+      "unique_outlets": 40,
+      "window_days": 35,
+      "threshold": 12,
+      "delta_vs_prev": -28,
+      "bullets": [
+        "ET Datacenters — Nvidia's networking revenue surpasses Cisco's total revenue in Q2 - ET Datacenters (Nov 01)",
+        "The Times of India — Trai proposes draft framework for responsible use of AI in tele networks - The Times of India (Oct 30)"
+      ],
+      "reasoning": "Value = 55 unique articles from 40 distinct outlets in the last 35 days (rule: ≥12). Change vs last refresh: -28. Leading outlets: Reuters, Light Reading, Fierce Network.",
+      "top_keyword": "AI infrastructure"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "AI infrastructure",
+      "category": "Market",
+      "count": 71,
+      "delta": -12
+    },
+    {
+      "keyword": "data center",
+      "category": "Market",
+      "count": 285,
+      "delta": -87
+    },
+    {
+      "keyword": "hyperscaler",
+      "category": "Market",
+      "count": 6,
+      "delta": -10
+    },
+    {
+      "keyword": "GPU",
+      "category": "Fabric",
+      "count": 28,
+      "delta": 6
+    },
+    {
+      "keyword": "Ethernet",
+      "category": "Fabric",
+      "count": 19,
+      "delta": 16
+    },
+    {
+      "keyword": "scale-up",
+      "category": "Fabric",
+      "count": 17,
+      "delta": 12
+    },
+    {
+      "keyword": "SONiC",
+      "category": "Fabric",
+      "count": 3,
+      "delta": 3
+    },
+    {
+      "keyword": "NVLink",
+      "category": "Fabric",
+      "count": 1,
+      "delta": -10
+    },
+    {
+      "keyword": "AIOps",
+      "category": "Operations",
+      "count": 13,
+      "delta": 9
+    },
+    {
+      "keyword": "agentic",
+      "category": "Operations",
+      "count": 71,
+      "delta": -2
+    },
+    {
+      "keyword": "network observability",
+      "category": "Operations",
+      "count": 12,
+      "delta": -1
+    },
+    {
+      "keyword": "800G",
+      "category": "Optics",
+      "count": 15,
+      "delta": -13
+    },
+    {
+      "keyword": "NaaS",
+      "category": "Connectivity",
+      "count": 6,
+      "delta": 4
+    },
+    {
+      "keyword": "PCF",
+      "category": "Connectivity",
+      "count": 0,
+      "delta": 0
+    },
+    {
+      "keyword": "multi-cloud",
+      "category": "Connectivity",
+      "count": 4,
+      "delta": -4
+    },
+    {
+      "keyword": "private AI",
+      "category": "Strategy",
+      "count": 12,
+      "delta": -2
+    },
+    {
+      "keyword": "sovereign",
+      "category": "Strategy",
+      "count": 41,
+      "delta": -23
+    },
+    {
+      "keyword": "zero-trust",
+      "category": "Security",
+      "count": 13,
+      "delta": -14
+    },
+    {
+      "keyword": "liquid cooling",
+      "category": "Power",
+      "count": 21,
+      "delta": 1
+    },
+    {
+      "keyword": "Mist",
+      "category": "Vendor",
+      "count": 1,
+      "delta": 1
+    }
+  ],
+  "vendors": [
+    {
+      "vendor": "Cisco",
+      "category": "Networking vendor",
+      "count": 60,
+      "delta": 18
+    },
+    {
+      "vendor": "Juniper",
+      "category": "Networking vendor",
+      "count": 3,
+      "delta": 1
+    },
+    {
+      "vendor": "HPE/Juniper",
+      "category": "Networking vendor",
+      "count": 0,
+      "delta": -1
+    },
+    {
+      "vendor": "Arista",
+      "category": "Networking vendor",
+      "count": 14,
+      "delta": 8
+    },
+    {
+      "vendor": "NVIDIA",
+      "category": "Silicon / fabric",
+      "count": 113,
+      "delta": 15
+    },
+    {
+      "vendor": "Lumen",
+      "category": "Telco / NSP",
+      "count": 22,
+      "delta": 3
+    },
+    {
+      "vendor": "AT&T",
+      "category": "Telco / NSP",
+      "count": 1,
+      "delta": -4
+    },
+    {
+      "vendor": "Verizon",
+      "category": "Telco / NSP",
+      "count": 5,
+      "delta": 3
+    },
+    {
+      "vendor": "NTT DATA",
+      "category": "Telco / NSP",
+      "count": 9,
+      "delta": 7
+    },
+    {
+      "vendor": "Orange Business",
+      "category": "Telco / NSP",
+      "count": 1,
+      "delta": -1
+    },
+    {
+      "vendor": "Equinix",
+      "category": "Data center / interconnect",
+      "count": 4,
+      "delta": -5
+    },
+    {
+      "vendor": "Tata Communications",
+      "category": "Telco / NSP (baseline)",
+      "count": 1,
+      "delta": 1
+    },
+    {
+      "vendor": "Microsoft",
+      "category": "Hyperscaler",
+      "count": 25,
+      "delta": -12
+    },
+    {
+      "vendor": "Google",
+      "category": "Hyperscaler",
+      "count": 13,
+      "delta": 10
+    }
+  ],
+  "industries": [
+    {
+      "industry": "Technology",
+      "count": 7,
+      "delta": -5
+    },
+    {
+      "industry": "Financial Services",
+      "count": 21,
+      "delta": 0
+    },
+    {
+      "industry": "Healthcare",
+      "count": 6,
+      "delta": -6
+    },
+    {
+      "industry": "Manufacturing & Industrial",
+      "count": 34,
+      "delta": 8
+    },
+    {
+      "industry": "Retail & Consumer",
+      "count": 2,
+      "delta": -1
+    },
+    {
+      "industry": "Energy & Utilities",
+      "count": 3,
+      "delta": -4
+    },
+    {
+      "industry": "Media & Entertainment",
+      "count": 2,
+      "delta": 2
+    },
+    {
+      "industry": "Logistics & Transportation",
+      "count": 17,
+      "delta": 5
+    },
+    {
+      "industry": "Professional Services",
+      "count": 9,
+      "delta": 4
+    }
+  ],
+  "trends": [
+    {
+      "rank": 1,
+      "trend": "Power & Sustainability",
+      "description": "203 articles across 118 outlets this window; leading theme: data center.",
+      "evidence": "DW.com — The hidden environmental cost of AI data centers - DW.com (Oct 31)"
+    },
+    {
+      "rank": 2,
+      "trend": "AIOps / Autonomous Networks",
+      "description": "185 articles across 109 outlets this window; leading theme: agentic.",
+      "evidence": "McKinsey & Company — Agentic AI in transaction monitoring: How banks can scale AI in compliance - McKinsey & Company (Oct 26)"
+    },
+    {
+      "rank": 3,
+      "trend": "Adoption Barriers & Skills",
+      "description": "174 articles across 122 outlets this window; leading theme: agentic.",
+      "evidence": "GlobeNewswire — CTERA Introduces Forward Deployed Engineering to Close the AI Skills Gap and Accelerate Enterprise Deployme… (Oct 06)"
+    },
+    {
+      "rank": 4,
+      "trend": "Market Sizing & Spend",
+      "description": "137 articles across 75 outlets this window; leading theme: data center.",
+      "evidence": "Omdia — As enterprise AI spend continues to rise, the PC ecosystem must define the on-device case for hybrid AI - O… (Oct 30)"
+    },
+    {
+      "rank": 5,
+      "trend": "Private / Sovereign AI",
+      "description": "134 articles across 75 outlets this window; leading theme: sovereign.",
+      "evidence": "EIN News — Trusted Human Context Emerges as a New Infrastructure Requirement for Enterprise AI - EIN News (Nov 01)"
+    },
+    {
+      "rank": 6,
+      "trend": "Network Security (Zero-Trust)",
+      "description": "133 articles across 84 outlets this window; leading theme: data center.",
+      "evidence": "GlobeNewswire — DP World Scales U.S. Data Center Logistics Network as AI Boom Drives Demand for Specialized Supply Chains -… (Oct 20)"
+    },
+    {
+      "rank": 7,
+      "trend": "AI Back-End / GPU Fabric",
+      "description": "120 articles across 76 outlets this window; leading theme: data center.",
+      "evidence": "GlobeNewswire — Micas Networks Unveils Three 102.4T Open Ethernet Platforms for AI Factories at OCP Global Summit 2026 - Gl… (Oct 12)"
+    },
+    {
+      "rank": 8,
+      "trend": "High-Speed Optics",
+      "description": "111 articles across 62 outlets this window; leading theme: data center.",
+      "evidence": "GlobeNewswire — Celestica Introduces the DS6005 Data Center Switch with Co-Packaged Optics to Enable Power-Efficient AI Fab… (Oct 12)"
+    },
+    {
+      "rank": 9,
+      "trend": "Network Observability",
+      "description": "103 articles across 76 outlets this window; leading theme: network observability.",
+      "evidence": "GlobeNewswire — Gigamon Extends the Deep Observability Pipeline for - GlobeNewswire (Oct 20)"
+    },
+    {
+      "rank": 10,
+      "trend": "NaaS / Cloud Connectivity",
+      "description": "91 articles across 56 outlets this window; leading theme: NaaS.",
+      "evidence": "GlobeNewswire — AI in Network Market Surges to $21.52 billion at a CAGR 17.0% by 2032 | Report by MarketsandMarkets™ - Glob… (Oct 26)"
+    }
+  ],
+  "totals": {
+    "articles": 1439,
+    "outlets": 538
+  }
+}
